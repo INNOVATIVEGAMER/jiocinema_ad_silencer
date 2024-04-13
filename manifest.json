@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Jiocinema IPL admuter",
+  "description": "This extension mutes the player as ad starts and unmute as ad ends",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "adIcon.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["https://www.jiocinema.com/*"]
+    }
+  ]
+}
