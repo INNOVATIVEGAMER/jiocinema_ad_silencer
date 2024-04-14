@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Jiocinema IPL admuter",
+  "name": "Jiocinema AD Silencer",
   "description": "This extension mutes the player as ad starts and unmute as ad ends",
   "version": "1.0",
   "action": {

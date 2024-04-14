@@ -9,7 +9,7 @@ Chromium based browers
 
 ## Usage
 
-1. Download the code [zip file](https://github.com/INNOVATIVEGAMER/jiocinema_ad_muter/archive/refs/heads/main.zip) in your local system
+1. Download the code [zip file](https://github.com/INNOVATIVEGAMER/jiocinema_ad_silencer/archive/refs/heads/main.zip) in your local system
 2. Open your Chrome browser and navigate to extension manager - chrome://extensions.
 3. Enable Developer Mode by clicking the toggle switch next to Developer mode.
 4. Click the Load unpacked button and select the extension directory by extracting given zip file.
