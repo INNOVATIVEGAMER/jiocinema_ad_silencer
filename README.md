@@ -1,4 +1,4 @@
-# Goal
+# Jiocinema AD Silencer
 
 This extension mutes the player as ad starts and unmute as ad ends on jiocinema
 specifically build for jiocinema for IPL 2024 ads
