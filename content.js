@@ -8,7 +8,12 @@ const adDetector = () => {
   const muteBtn = document.querySelector(MUTE_BTN_SELECTOR);
   if (!muteBtn) return false;
 
-  if (muteBtn.ariaLabel == "Unmute") muteBtn.click();
+  const mute = () => {
+    if (muteBtn.ariaLabel == "Mute") muteBtn.click();
+  };
+  const unmute = () => {
+    if (muteBtn.ariaLabel == "Unmute") muteBtn.click();
+  };
 
   let adStarted = false;
 
@@ -17,7 +22,7 @@ const adDetector = () => {
 
     if (adDiv && !adStarted) {
       adStarted = true;
-      muteBtn.click();
+      mute();
     }
   }, 500);
 
@@ -34,7 +39,7 @@ const adDetector = () => {
 
         if (!adDiv) {
           adStarted = false;
-          muteBtn.click();
+          unmute();
         }
       }, 8000);
     }
