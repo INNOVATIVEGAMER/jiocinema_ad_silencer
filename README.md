@@ -10,7 +10,7 @@ Chromium based browers
 ## Usage
 
 1. Download the code [zip file](https://github.com/INNOVATIVEGAMER/jiocinema_ad_muter/archive/refs/heads/main.zip) in your local system
-2. Open your Chrome browser and navigate to [extension manager](chrome://extensions).
+2. Open your Chrome browser and navigate to extension manager - chrome://extensions.
 3. Enable Developer Mode by clicking the toggle switch next to Developer mode.
 4. Click the Load unpacked button and select the extension directory by extracting given zip file.
 5. Reload the jiocinema tab in your brower if already open
@@ -22,7 +22,7 @@ This is a simple around 50 line script. But if you have any better approach plea
 ## Contributing
 
 1. Clone the repo in your local system
-2. Open your Chrome browser and navigate to [extension manager](chrome://extensions).
+2. Open your Chrome browser and navigate to extension manager - chrome://extensions..
 3. Enable Developer Mode by clicking the toggle switch next to Developer mode.
 4. Click the Load unpacked button and select the extension directory by extracting given zip file.
 5. Make the changes in extension code and reload the extension to see the reflected changes
