@@ -12,5 +12,11 @@
       "js": ["content.js"],
       "matches": ["https://www.jiocinema.com/*"]
     }
-  ]
+  ],
+  "icons": {
+    "16": "adIcon.png",
+    "32": "adIcon.png",
+    "48": "adIcon.png",
+    "128": "adIcon.png"
+  }
 }
